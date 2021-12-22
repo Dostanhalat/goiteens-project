@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .subtext{
+                margin-top: 20px;
+            }
+            .buton{
+                bottom: -45px;
+                right: 30px;
+                position: absolute;
+                display: inline-block;
+                background-color: #95E1D3;
+                height: 65px;
+                width: 200px;
+                font-family: sans-serif;
+                text-align: center;
+                color: white;
+
+            }
+            .email{
+                color: gray;
+                right: 230px;
+                bottom:-55px;
+                position: absolute;
+                display: inline-block;
+                border: gray solid 1px;
+                border-right: 0px;
+                height: 62px;
+                width: 300px;
+                margin-bottom: 10px;
+            }
+            h6{
+                font-family: sans-serif;
+                font-size: 15px;
+            }
+            redtext{
+                color: red;
+            }
+            .footer{
+                position: absolute;
+                top: 1800PX;
+                border-top: gray solid 2px;
+                width: 100%;
+                height: 30px;
+            }
+            .phototext{
+                margin-left: 175px;
+                width: 975px;
+                display: flex;
+                top: 1445px;
+                position: absolute;
+                justify-content: space-between;
+            }
+            .photobottomtext{
+                width: 950px;
+                position: absolute;
+                margin-left: 175px;
+                display: flex;
+                top: 1465px;
+                justify-content: space-between;
+            }
+            .undertext{
+                font-size: 15px;
+                font-family: sans-serif;
+            }
+            .bottomtext{
+                font-size: 15px;
+                color: rgb(163, 163, 163);
+                font: cursive;
+                font-family: sans-serif;
+            }
+            .photodiv1{
+                flex-wrap: nowrap;
+                background-image:url(first.png);
+                margin-top:100px;
+                margin-left: 100px;
+                float:left;
+                background-color: rgba(0, 0, 0, 0.212);
+                width: 300px;
+                height:400px;
+            }
+            .photodiv2{
+                flex-wrap: nowrap;
+                background-image:url(second.png);
+                margin-top:100px;
+                margin-left: 100px;
+                float:left;
+                background-color: rgba(0, 0, 0, 0.212);
+                width: 300px;
+                height:400px;
+            }
+            .photodiv3{
+                flex-wrap: nowrap;
+                background-image:url(third.png);
+                margin-top:100px;
+                margin-left: 100px;
+                float:left;
+                background-color: rgba(0, 0, 0, 0.212);
+                width: 300px;
+                height:400px;
+            }
+            .links{
+                margin-top:10px;
+                float:right;
+            }
+            .topbar{
+                width:all;
+                height: 50px;
+            }
+            .onlink{
+                font-family: sans-serif;
+                color:red;
+                border-bottom:solid 4px;
+                padding-bottom:8px;
+            }
+            .logo{
+                font-family: sans-serif;
+                color: lightblue;
+                font-size:30px;
+                margin-top:10px;
+                float:left;
+                height: 20px;
+                width: 60px;
+                margin-left: 20px;
+            }
+            .offlink{
+                font-family: sans-serif;
+                text-decoration:none;
+                color:lightblue;
+                padding-right: 40px;
+            }
+            .offlink2{
+                font-family: sans-serif;
+                text-decoration:none;
+                color:lightblue;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            .toptitle{
+                font: italic 30px cursive;
+                height:10px;
+                width:200px;
+                font-size:20px;
+                padding-top:100px;
+            }
+            .toptitle2{
+                font: small-caps bold 24px/1 sans-serif;
+                width:300px;
+                height:10px;
+                margin-top:50px;
+
+            }
+            .redline{
+                border:solid red 3px;
+                width:90px;
+                margin-top:50px;
+                background-color: red;
+            }
+            .container{
+                width: 1000px;
+                height: 153px;
+                left: 390px;
+                margin-top: 80px;
+                display: flex;
+            }
+            .container2{
+                width: 1000px;
+                height: 153px;
+                left: 390px;
+                display: flex;
+            }
+            .kletkasfoto{
+                justify-content: space-between;
+                width: 400px;
+                height:150px;
+                text-align: justify;
+            }
+            .minititle{
+                position: absolute;
+                margin-left:50px;
+
+            }
+          .photography{
+                width: 30px;
+                height: 30px;
+                float: left;
+                margin-left: 10px;
+                margin-right:10px;
+                margin-bottom: 10px;
+            }
+            .tekst{
+                margin-top: 20px;
+                height: 37px;
+                width: 275.7798156738281px;
+                text-align: justify;
+                color: gray;
+                
+            }
+            .understuff{
+                color:rgb(167, 164, 164);
+                width:1000px;
+                font-size: 15px;
+                margin-top: 40px;
+            }
+            .simplecontainer{
+                display: flex;
+            }
+            .thedown{
+                width:100%;
+                margin-bottom: 0px;
+                height: 150px;
+                border-top: gray solid 1px;
+
+            }
+            .mail{
+                width: 200px;
+                height: 50px;
+                margin-top: 6.25px;
+                margin-bottom: 6.25px;
+                float:right;
+                border: gray 10px;
+            }
+           .button{
+               width: 150px;
+                right:0px;
+                height: 30px;
+                margin-top: 6.25px;
+                margin-bottom: 6.25x;
+                background-color: rgb(64, 145, 145);
+                color: white;
+                border-radius: 10px;
+                padding-top:15px;
+            }
+            .buttonn{
+                font-weight: 900;
+                font-family: Verdana, sans-serif;
+                font-size:15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tobpbar">
+            <div class="logo">
+                MoGo
+            </div>
+            <div class="links">
+                <a class="onlink">ABOUT</a>
+                <a class="offlink2">SERVICE</a>
+                <a class="offlink">WORK</a>
+                <a class="offlink">BLOG</a>
+                <a class="offlink">CONTACT</a>
+            </div>
+        </div>
+        <center>
+        <div class="toptitle">
+            We work with
+        </div>
+        <div class="toptitle2">
+            AMAZING SERVICES
+        </b1>
+        </div>
+        <div class="redline"></div>
+        <div class="container">
+            <div class="kletkasfoto">
+                <div class="minititle">
+                    PHOTOGRAPHY
+                </div>
+                  <img src="1.png" class="photography">
+                <div class="tekst">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+            </div>
+            <div class="kletkasfoto">
+                <div class="minititle">
+                    PHOTOGRAPHY
+                </div>
+                  <img src="2.png" class="photography">
+                <div class="tekst">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+            </div>
+            <div class="kletkasfoto">
+                <div class="minititle">
+                    PHOTOGRAPHY
+                </div>
+                  <img src="3.png" class="photography">
+                <div class="tekst">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="kletkasfoto">
+                <div class="minititle">
+                    PHOTOGRAPHY
+                </div>
+                  <img src="4.png" class="photography">
+                <div class="tekst">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+            </div>
+            <div class="kletkasfoto">
+                <div class="minititle">
+                    PHOTOGRAPHY
+                </div>
+                  <img src="5.png" class="photography">
+                <div class="tekst">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+            </div>
+            <div class="kletkasfoto">
+                <div class="minititle">
+                    PHOTOGRAPHY
+                </div>
+                  <img src="6.png" class="photography">
+                <div class="tekst">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </div>
+            </div>
+        </div>
+        <div class="toptitle">
+            Who we are
+        </div>
+        <div class="toptitle2">
+            MEET OUR TEAM
+        </b1>
+        </div>
+        <div class="redline"></div>
+        <div class="understuff">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eius dignissimos excepturi iste quod totam sint ad fugiat, veniam praesentium voluptatibus maxime maiores voluptatum non beatae odit officia vitae harum.</div>
+    </div>
+    <div class="simplecontainer">
+    <div class="photodiv1">
+    </div>
+    <div class="photodiv2">
+    </div>
+    <div class="photodiv3">
+    </div>
+    <div class="phototext">
+        <div class="undertext">
+            MATTHEW DIX
+        </div>
+        <div class="undertext">
+            CHRISTOFER CAMPBELL
+        </div>
+        <div class="undertext">
+            MICHAEL FERTIG
+        </div>
+    </div>
+    <div class="photobottomtext">
+        <div class="bottomtext">
+            Grephic Design
+        </div>
+        <div class="bottomtext">
+            Branding/UX Design
+        </div>
+        <div class="bottomtext">
+            Developer
+        </div>
+
+     </div>
+       </center>
+       <div class="footer">
+            <h6>© 2016 MoGo free PSD template by <redtext>Laaqiq</redtext></h6>
+                <input type="email" class="email">Enter your email...</input>
+                <div class="buton"><h3 class="subtext">SUBSCRIBE</h3></div>
+       </div>
+    </body>
+</html>
